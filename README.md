@@ -10,6 +10,7 @@ be deployed in a cloud computing environment.
 ## Cellpose
 
 The Cellpose plugin for VPT is an interface to Cellpose 1.0.2:
+
 Stringer, C., Wang, T., Michaelos, M., & Pachitariu, M. (2021). Cellpose: a generalist algorithm for cellular segmentation. <em>Nature methods, 18</em>(1), 100-106.
 
 Addtional information about Cellpose can be found at https://www.cellpose.org/
