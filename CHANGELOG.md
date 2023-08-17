@@ -2,6 +2,16 @@
 
 <!--next-version-placeholder-->
 
+## v1.0.0 (2023-08-17)
+
+### Feature
+
+* Initial Release ([`9fb8821`](https://github.com/Vizgen/vpt-plugin-cellpose/commit/9fb88210d708ff5606cd7cf330834a83b6eb475b))
+
+### Breaking
+
+*  ([`9fb8821`](https://github.com/Vizgen/vpt-plugin-cellpose/commit/9fb88210d708ff5606cd7cf330834a83b6eb475b))
+
 ## v0.0.2 (2023-08-17)
 
 ### Documentation
