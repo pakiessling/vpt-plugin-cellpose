@@ -6,3 +6,4 @@
 My fork updates cellpose to version 3
 The new denoising options are currently not implemented
 
+See json for how the new options should be used
