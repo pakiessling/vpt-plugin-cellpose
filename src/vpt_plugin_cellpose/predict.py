@@ -50,6 +50,7 @@ def run(
         min_size=parameters.minimum_mask_size,
         tile=True,
         do_3D=(properties.model_dimensions == "3D"),
+        normalize={"normalize": parameters.normalize, "percentile": [parameters.percentile_low, parameters.percentile_high]},  # type: ignore
     )[0]
     mask = mask.reshape((len(to_segment_z),) + image.shape[1:-1])
     for i in empty_z_levels:
