@@ -9,7 +9,6 @@ from vpt_core.segmentation.seg_result import SegmentationResult
 from vpt_core.segmentation.segmentation_base import SegmentationBase
 from vpt_plugin_cellpose import predict, CellposeSegProperties, CellposeSegParameters
 
-
 class SegmentationMethod(SegmentationBase):
     @staticmethod
     def run_segmentation(
@@ -22,7 +21,7 @@ class SegmentationMethod(SegmentationBase):
     ) -> Union[SegmentationResult, Iterable[SegmentationResult]]:
         properties = CellposeSegProperties(**segmentation_properties)
         parameters = CellposeSegParameters(**segmentation_parameters)
-
+        
         masks = predict.run(images, properties, parameters)
         return generate_polygons_from_mask(masks, polygon_parameters)
 
