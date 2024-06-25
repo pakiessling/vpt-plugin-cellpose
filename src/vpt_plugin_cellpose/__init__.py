@@ -18,3 +18,6 @@ class CellposeSegParameters:
     flow_threshold: float
     cellprob_threshold: float
     minimum_mask_size: int
+    normalize: bool
+    percentile_low: float
+    percentile_high: float
